@@ -1,6 +1,6 @@
 ![scs-logo](cmake/latex/logos/scs_logo_text.png)
 
-jumpstart-docs
+jumpstart-docs2
 ==============
 
 <p align="center">
