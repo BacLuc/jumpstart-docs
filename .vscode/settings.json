@@ -1,4 +1,5 @@
 {
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "cmake.generator": "Unix Makefiles",
+    "java.compile.nullAnalysis.mode": "automatic",
 }

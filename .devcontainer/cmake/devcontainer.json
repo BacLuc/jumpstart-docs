@@ -1,0 +1,17 @@
+{
+    "name": "Jumpstart cmake/docmake",
+    "dockerComposeFile": "../../docker-compose.yml",
+    "service": "docmake",
+    "workspaceFolder": "/workspace",
+    "updateRemoteUserUID": true,
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "anwar.papyrus-pdf",
+                "lvm-vs-code-extensions.vscode-clangd",
+                "ms-vscode.cmake-tools",
+                "twxs.cmake"
+            ]
+        }
+    }
+}
