@@ -1,0 +1,11 @@
+{
+    "name": "Jumpstart java",
+    "dockerComposeFile": "../../docker-compose.yml",
+    "service": "java",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "dev",
+    "shutdownAction": "none",
+    "postCreateCommand": [
+        "whoami"
+    ]
+}
