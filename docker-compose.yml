@@ -14,9 +14,3 @@ services:
       context: .devcontainer/systemd
     volumes:
       - ./:/workspace
-  systemd-directly:
-    image: ${REGISTRY:-ghcr.io}/${REPO_OWNER:-scs}/systemd-image:1
-    build:
-      context: .devcontainer/systemd
-    volumes:
-      - ./:/workspace

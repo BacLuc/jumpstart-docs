@@ -1,7 +1,0 @@
-{
-    "name": "Jumpstart systemd directly",
-    "dockerComposeFile": "../../docker-compose.yml",
-    "service": "systemd",
-    "workspaceFolder": "/workspace",
-    "updateRemoteUserUID": true,
-}
