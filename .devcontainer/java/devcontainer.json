@@ -6,7 +6,6 @@
     "updateRemoteUserUID": true,
     "features": {
         "ghcr.io/devcontainers-contrib/features/maven-sdkman": {
-            "version": "2.0.14",
             "jdkVersion": "17",
             "jdkDistro": "tem"
         }
