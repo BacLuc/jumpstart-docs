@@ -3,5 +3,5 @@
     "dockerComposeFile": "../../docker-compose.yml",
     "service": "systemd",
     "workspaceFolder": "/workspace",
-    "updateRemoteUserUID": true,
+    "updateRemoteUserUID": true
 }

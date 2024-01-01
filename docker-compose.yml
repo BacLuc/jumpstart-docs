@@ -14,3 +14,4 @@ services:
       context: .devcontainer/systemd
     volumes:
       - ./:/workspace
+    privileged: true
