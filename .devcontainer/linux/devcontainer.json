@@ -1,0 +1,11 @@
+{
+    "name": "Jumpstart linux part",
+    "dockerComposeFile": "../../docker-compose.yml",
+    "service": "linux",
+    "workspaceFolder": "/workspace",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {
+            "dockerDashComposeVersion": "v2"
+        }
+    }
+}
