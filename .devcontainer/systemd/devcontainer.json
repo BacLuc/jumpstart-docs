@@ -1,7 +1,14 @@
 {
     "name": "Jumpstart systemd",
-    "dockerComposeFile": "../../docker-compose.yml",
-    "service": "systemd",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.03",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {
+            "dockerDashComposeVersion": "v2"
+        }
+    },
+    "runArgs": [
+        "--privileged"
+    ],
     "workspaceFolder": "/workspace",
     "updateRemoteUserUID": true
 }
