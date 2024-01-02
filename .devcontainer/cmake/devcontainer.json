@@ -1,10 +1,6 @@
 {
     "name": "Jumpstart cmake/docmake",
-    "dockerComposeFile": "../../docker-compose.yml",
-    "service": "docmake",
-    "runServices": [],
-    "workspaceFolder": "/workspace",
-    "updateRemoteUserUID": true,
+    "image": "ghcr.io/langchr86/docmake@sha256:32d37fb9a637f0bd2b7860305a31e29ceb665f5f8f884b463a1da4d74cbf308d",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -14,9 +10,5 @@
                 "twxs.cmake"
             ]
         }
-    },
-    "remoteEnv": {
-        "DISPLAY": ":99"
-    },
-    "postStartCommand": "Xvfb :99 &"
+    }
 }

@@ -1,10 +1,6 @@
 {
     "name": "Jumpstart java",
-    "dockerComposeFile": "../../docker-compose.yml",
-    "service": "java",
-    "workspaceFolder": "/workspace",
-    "runServices": [],
-    "updateRemoteUserUID": true,
+    "image": "mcr.microsoft.com/devcontainers/java:dev-17-jdk-bookworm",
     "features": {
         "ghcr.io/devcontainers-contrib/features/maven-sdkman": {
             "jdkVersion": "17",
