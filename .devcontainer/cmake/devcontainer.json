@@ -2,6 +2,7 @@
     "name": "Jumpstart cmake/docmake",
     "dockerComposeFile": "../../docker-compose.yml",
     "service": "docmake",
+    "runServices": [],
     "workspaceFolder": "/workspace",
     "updateRemoteUserUID": true,
     "customizations": {
@@ -13,6 +14,9 @@
                 "twxs.cmake"
             ]
         }
+    },
+    "remoteEnv": {
+        "DISPLAY": ":99"
     },
     "postStartCommand": "Xvfb :99 &"
 }

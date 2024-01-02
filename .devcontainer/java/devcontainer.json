@@ -3,6 +3,7 @@
     "dockerComposeFile": "../../docker-compose.yml",
     "service": "java",
     "workspaceFolder": "/workspace",
+    "runServices": [],
     "updateRemoteUserUID": true,
     "features": {
         "ghcr.io/devcontainers-contrib/features/maven-sdkman": {
